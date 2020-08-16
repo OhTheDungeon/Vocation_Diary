@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "AEA",
+        "WWW"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:milk_bucket"
+        },
+        "A": {
+            "item": "vacation_diary:caramel"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "W": {
+            "item": "minecraft:wheat"
+        }
+    },
+    "result": {
+        "item": "vacation_diary:caramel_cake",
+        "count": 1
+    }
+}

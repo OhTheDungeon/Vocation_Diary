@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "vacation_diary:tea_log"
+        }
+    ],
+    "result": {
+        "item": "minecraft:spruce_planks",
+        "count": 4
+    }
+}

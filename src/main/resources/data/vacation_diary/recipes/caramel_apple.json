@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "vacation_diary:caramel"
+        },
+        {
+            "item": "minecraft:apple"
+        }
+    ],
+    "result": {
+        "item": "vacation_diary:caramel_apple",
+        "count": 1
+    }
+}

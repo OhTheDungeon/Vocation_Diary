@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "half=lower": { "model": "vacation_diary:block/mountain_laurel_bottom" },
+    "half=upper":    { "model": "vacation_diary:block/mountain_laurel_top" }
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/tinted_cross",
+    "textures": {
+        "cross": "vacation_diary:block/black_tea_bottom"
+    }
+}

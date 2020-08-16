@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bowl"
+        },
+        {
+            "item": "minecraft:snowball"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "minecraft:milk_bucket"
+        }
+    ],
+    "result": {
+        "item": "vacation_diary:vanilla_ice_cream",
+        "count": 1
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "textures": {
+        "particle": "vacation_diary:block/applecake_side",
+        "bottom": "vacation_diary:block/applecake_bottom",
+        "top": "vacation_diary:block/applecake_top",
+        "side": "vacation_diary:block/applecake_side",
+        "inside": "vacation_diary:block/applecake_inner"
+    },
+    "elements": [
+        {   "from": [ 9, 0, 1 ],
+            "to": [ 15, 8, 15 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#inside" },
+                "east":  { "texture": "#side" }
+            }
+        }
+    ]
+}

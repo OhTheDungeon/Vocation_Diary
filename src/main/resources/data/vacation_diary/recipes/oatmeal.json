@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:wheat_seeds"
+        },
+        {
+            "item": "minecraft:wheat_seeds"
+        },
+        {
+            "item": "minecraft:wheat_seeds"
+        },
+        {
+            "item": "minecraft:wheat_seeds"
+        },
+        {
+            "item": "minecraft:wheat_seeds"
+        },
+        {
+            "item": "minecraft:wheat_seeds"
+        },
+        {
+            "item": "minecraft:bowl"
+        }
+    ],
+    "result": {
+        "item": "vacation_diary:oatmeal",
+        "count": 1
+    }
+}

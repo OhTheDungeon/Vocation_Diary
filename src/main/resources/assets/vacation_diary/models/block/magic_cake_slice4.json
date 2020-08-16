@@ -1,0 +1,22 @@
+{
+    "textures": {
+        "particle": "vacation_diary:block/magiccake_side",
+        "bottom": "vacation_diary:block/magiccake_bottom",
+        "top": "vacation_diary:block/magiccake_top",
+        "side": "vacation_diary:block/magiccake_side",
+        "inside": "vacation_diary:block/magiccake_inner"
+    },
+    "elements": [
+        {   "from": [ 9, 0, 1 ],
+            "to": [ 15, 8, 15 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#inside" },
+                "east":  { "texture": "#side" }
+            }
+        }
+    ]
+}

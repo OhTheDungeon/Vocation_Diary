@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "half=lower": { "model": "vacation_diary:block/butterfly_weed_bottom" },
+    "half=upper":    { "model": "vacation_diary:block/butterfly_weed_top" }
+  }
+}

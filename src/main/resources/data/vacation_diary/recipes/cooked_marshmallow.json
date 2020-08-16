@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "vacation_diary:raw_marshmallow"
+    },
+    "result": "vacation_diary:cooked_marshmallow",
+    "experience": 0.1,
+    "cookingtime": 200
+}

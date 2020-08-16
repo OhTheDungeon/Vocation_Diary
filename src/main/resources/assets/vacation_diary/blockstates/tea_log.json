@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":   { "model": "vacation_diary:block/tea_log" },
+        "axis=z":   { "model": "vacation_diary:block/tea_log", "x": 90 },
+        "axis=x":   { "model": "vacation_diary:block/tea_log", "x": 90, "y": 90 }
+    }
+}

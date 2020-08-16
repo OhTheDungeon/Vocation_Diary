@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "half=lower": { "model": "vacation_diary:block/purple_hibiscus_bottom" },
+    "half=upper":    { "model": "vacation_diary:block/purple_hibiscus_top" }
+  }
+}

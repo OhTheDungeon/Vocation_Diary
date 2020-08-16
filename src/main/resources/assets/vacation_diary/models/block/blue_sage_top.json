@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "vacation_diary:block/blue_sage_top"
+  }
+}

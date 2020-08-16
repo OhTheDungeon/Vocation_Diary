@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "vacation_diary:vanilla_ice_cream"
+        },
+        {
+            "item": "vacation_diary:caramel"
+        }
+    ],
+    "result": {
+        "item": "vacation_diary:caramel_ice_cream",
+        "count": 1
+    }
+}

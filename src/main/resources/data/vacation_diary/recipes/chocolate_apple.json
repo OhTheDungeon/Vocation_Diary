@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "vacation_diary:hot_chocolate_milk_bottle"
+        },        {
+            "item": "minecraft:stick"
+        },
+        {
+            "item": "minecraft:apple"
+        }
+    ],
+    "result": {
+        "item": "vacation_diary:chocolate_apple",
+        "count": 1
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=lower": { 
+        "model": "vacation_diary:block/green_tea_bottom"
+     },
+        "half=upper":    { 
+            "model": "vacation_diary:block/green_tea_top" 
+        }
+    }
+}

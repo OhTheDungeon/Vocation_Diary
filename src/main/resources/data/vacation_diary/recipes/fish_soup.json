@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#BC",
+        " Y "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:carrot"
+        },
+        "B": {
+            "item": "minecraft:baked_potato"
+        },
+        "C": {
+            "item": "minecraft:cooked_cod"
+        },
+        "Y": {
+            "item": "minecraft:bowl"
+        }
+    },
+    "result": {
+        "item": "vacation_diary:fish_soup",
+        "count": 1
+    }
+}

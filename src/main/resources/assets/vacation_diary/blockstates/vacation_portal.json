@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "axis=z": { "model": "vacation_diary:block/vacation_portal_ew" },
+        "axis=x": { "model": "vacation_diary:block/vacation_portal_ns" }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "vacation_diary:chocolate_biscuit"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "vacation_diary:chocolate_biscuit"
+        },
+        {
+            "item": "minecraft:milk_bucket"
+        }
+    ],
+    "result": {
+        "item": "vacation_diary:oreo",
+        "count": 1
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "vacation_diary:sugar_cube"
+    },
+    "result": "vacation_diary:caramel",
+    "experience": 0.1,
+    "cookingtime": 200
+}

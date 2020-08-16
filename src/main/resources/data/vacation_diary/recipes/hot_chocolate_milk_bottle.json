@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#G"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cocoa_beans"
+        },
+        "G": {
+            "item": "vacation_diary:hot_milk_bottle"
+        }
+    },
+    "result": {
+        "item": "vacation_diary:hot_chocolate_milk_bottle",
+        "count": 1
+    }
+}

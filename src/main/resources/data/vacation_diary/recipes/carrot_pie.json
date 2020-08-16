@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "minecraft:egg"
+        },
+        {
+            "item": "minecraft:carrot"
+        }
+    ],
+    "result": {
+        "item": "vacation_diary:carrot_pie",
+        "count": 1
+    }
+}

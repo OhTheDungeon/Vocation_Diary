@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+[[mods]]
+modId="vacation_diary"
+version="${file.jarVersion}"
+displayName="度假日记"
+authors="Shadow_Wind"
+description='''
+来探险吧
+'''
+[[dependencies.vacation_diary]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[31,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.vacation_diary]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"

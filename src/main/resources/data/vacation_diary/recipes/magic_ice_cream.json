@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:golden_apple"
+        },
+        {
+            "item": "minecraft:glistering_melon_slice"
+        },
+        {
+            "item": "minecraft:glistering_melon_slice"
+        },
+        {
+            "item": "vacation_diary:vanilla_ice_cream"
+        }
+    ],
+    "result": {
+        "item": "vacation_diary:magic_ice_cream",
+        "count": 1
+    }
+}

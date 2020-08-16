@@ -1,0 +1,353 @@
+package cn.shadow.vacation_diary.util;
+
+import cn.shadow.vacation_diary.dimension.support.Odds;
+import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
+
+public class MaterialTable {
+	public final static Block[] itemsSelectMaterial_BuildingWalls = new Block[] {
+			Blocks.COBBLESTONE, Blocks.SANDSTONE, Blocks.BRICKS, Blocks.MOSSY_COBBLESTONE, Blocks.CLAY,
+			Blocks.NETHERRACK, Blocks.SOUL_SAND, Blocks.STONE, Blocks.SMOOTH_STONE, Blocks.STONE_BRICKS,
+			Blocks.NETHER_BRICKS, Blocks.QUARTZ_BLOCK, Blocks.CHISELED_STONE_BRICKS,
+			Blocks.CRACKED_STONE_BRICKS, Blocks.ACACIA_PLANKS, Blocks.BIRCH_PLANKS, Blocks.DARK_OAK_PLANKS,
+			Blocks.JUNGLE_PLANKS, Blocks.OAK_PLANKS, Blocks.SPRUCE_PLANKS, Blocks.WHITE_WOOL,
+			Blocks.ORANGE_WOOL, Blocks.MAGENTA_WOOL, Blocks.LIGHT_BLUE_WOOL, Blocks.YELLOW_WOOL,
+			Blocks.LIME_WOOL, Blocks.PINK_WOOL, Blocks.GRAY_WOOL, Blocks.LIGHT_GRAY_WOOL, Blocks.CYAN_WOOL,
+			Blocks.PURPLE_WOOL, Blocks.BLUE_WOOL, Blocks.BROWN_WOOL, Blocks.GREEN_WOOL, Blocks.RED_WOOL,
+			Blocks.BLACK_WOOL, Blocks.TERRACOTTA, Blocks.WHITE_TERRACOTTA, Blocks.ORANGE_TERRACOTTA,
+			Blocks.MAGENTA_TERRACOTTA, Blocks.LIGHT_BLUE_TERRACOTTA, Blocks.YELLOW_TERRACOTTA,
+			Blocks.LIME_TERRACOTTA, Blocks.PINK_TERRACOTTA, Blocks.GRAY_TERRACOTTA,
+			Blocks.LIGHT_GRAY_TERRACOTTA, Blocks.CYAN_TERRACOTTA, Blocks.PURPLE_TERRACOTTA,
+			Blocks.BLUE_TERRACOTTA, Blocks.BROWN_TERRACOTTA, Blocks.GREEN_TERRACOTTA, Blocks.RED_TERRACOTTA,
+			Blocks.BLACK_TERRACOTTA, Blocks.COAL_BLOCK, Blocks.RED_SANDSTONE, Blocks.RED_NETHER_BRICKS,
+			Blocks.PRISMARINE, Blocks.PRISMARINE_BRICKS, Blocks.PURPUR_BLOCK, Blocks.PURPUR_PILLAR,
+			Blocks.WHITE_CONCRETE, Blocks.ORANGE_CONCRETE, Blocks.MAGENTA_CONCRETE, Blocks.LIGHT_BLUE_CONCRETE,
+			Blocks.YELLOW_CONCRETE, Blocks.LIME_CONCRETE, Blocks.PINK_CONCRETE, Blocks.GRAY_CONCRETE,
+			Blocks.LIGHT_GRAY_CONCRETE, Blocks.CYAN_CONCRETE, Blocks.PURPLE_CONCRETE, Blocks.BLUE_CONCRETE,
+			Blocks.BROWN_CONCRETE, Blocks.GREEN_CONCRETE, Blocks.RED_CONCRETE, Blocks.BLACK_CONCRETE,
+			Blocks.END_STONE, Blocks.END_STONE_BRICKS};
+	
+	public final static Block[] itemsSelectMaterial_BuildingFoundation = new Block[] {
+			Blocks.COBBLESTONE, Blocks.SANDSTONE, Blocks.BRICKS, Blocks.MOSSY_COBBLESTONE, Blocks.CLAY,
+			Blocks.NETHERRACK, Blocks.SMOOTH_STONE, Blocks.STONE_BRICKS, Blocks.NETHER_BRICKS,
+			Blocks.QUARTZ_BLOCK, Blocks.CHISELED_STONE_BRICKS, Blocks.CRACKED_STONE_BRICKS,
+			Blocks.ACACIA_PLANKS, Blocks.BIRCH_PLANKS, Blocks.DARK_OAK_PLANKS, Blocks.JUNGLE_PLANKS,
+			Blocks.OAK_PLANKS, Blocks.SPRUCE_PLANKS, Blocks.WHITE_WOOL, Blocks.ORANGE_WOOL,
+			Blocks.MAGENTA_WOOL, Blocks.LIGHT_BLUE_WOOL, Blocks.YELLOW_WOOL, Blocks.LIME_WOOL,
+			Blocks.PINK_WOOL, Blocks.GRAY_WOOL, Blocks.LIGHT_GRAY_WOOL, Blocks.CYAN_WOOL, Blocks.PURPLE_WOOL,
+			Blocks.BLUE_WOOL, Blocks.BROWN_WOOL, Blocks.GREEN_WOOL, Blocks.RED_WOOL, Blocks.BLACK_WOOL,
+			Blocks.TERRACOTTA, Blocks.WHITE_TERRACOTTA, Blocks.ORANGE_TERRACOTTA, Blocks.MAGENTA_TERRACOTTA,
+			Blocks.LIGHT_BLUE_TERRACOTTA, Blocks.YELLOW_TERRACOTTA, Blocks.LIME_TERRACOTTA,
+			Blocks.PINK_TERRACOTTA, Blocks.GRAY_TERRACOTTA, Blocks.LIGHT_GRAY_TERRACOTTA,
+			Blocks.CYAN_TERRACOTTA, Blocks.PURPLE_TERRACOTTA, Blocks.BLUE_TERRACOTTA, Blocks.BROWN_TERRACOTTA,
+			Blocks.GREEN_TERRACOTTA, Blocks.RED_TERRACOTTA, Blocks.BLACK_TERRACOTTA, Blocks.COAL_BLOCK,
+			Blocks.RED_SANDSTONE, Blocks.RED_NETHER_BRICKS, Blocks.PRISMARINE, Blocks.PRISMARINE_BRICKS,
+			Blocks.PURPUR_BLOCK, Blocks.PURPUR_PILLAR, Blocks.WHITE_CONCRETE, Blocks.ORANGE_CONCRETE,
+			Blocks.MAGENTA_CONCRETE, Blocks.LIGHT_BLUE_CONCRETE, Blocks.YELLOW_CONCRETE, Blocks.LIME_CONCRETE,
+			Blocks.PINK_CONCRETE, Blocks.GRAY_CONCRETE, Blocks.LIGHT_GRAY_CONCRETE, Blocks.CYAN_CONCRETE,
+			Blocks.PURPLE_CONCRETE, Blocks.BLUE_CONCRETE, Blocks.BROWN_CONCRETE, Blocks.GREEN_CONCRETE,
+			Blocks.RED_CONCRETE, Blocks.BLACK_CONCRETE, Blocks.END_STONE, Blocks.END_STONE_BRICKS};
+	public final static Block[] itemsSelectMaterial_BuildingCeilings = new Block[] {
+			Blocks.COBBLESTONE, Blocks.SANDSTONE, Blocks.BRICKS, Blocks.MOSSY_COBBLESTONE, Blocks.CLAY,
+			Blocks.NETHERRACK, Blocks.SMOOTH_STONE, Blocks.STONE_BRICKS, Blocks.NETHER_BRICKS,
+			Blocks.QUARTZ_BLOCK, Blocks.CHISELED_STONE_BRICKS, Blocks.CRACKED_STONE_BRICKS,
+			Blocks.ACACIA_PLANKS, Blocks.BIRCH_PLANKS, Blocks.DARK_OAK_PLANKS, Blocks.JUNGLE_PLANKS,
+			Blocks.OAK_PLANKS, Blocks.SPRUCE_PLANKS, Blocks.WHITE_WOOL, Blocks.ORANGE_WOOL,
+			Blocks.MAGENTA_WOOL, Blocks.LIGHT_BLUE_WOOL, Blocks.YELLOW_WOOL, Blocks.LIME_WOOL,
+			Blocks.PINK_WOOL, Blocks.GRAY_WOOL, Blocks.LIGHT_GRAY_WOOL, Blocks.CYAN_WOOL, Blocks.PURPLE_WOOL,
+			Blocks.BLUE_WOOL, Blocks.BROWN_WOOL, Blocks.GREEN_WOOL, Blocks.RED_WOOL, Blocks.BLACK_WOOL,
+			Blocks.TERRACOTTA, Blocks.WHITE_TERRACOTTA, Blocks.ORANGE_TERRACOTTA, Blocks.MAGENTA_TERRACOTTA,
+			Blocks.LIGHT_BLUE_TERRACOTTA, Blocks.YELLOW_TERRACOTTA, Blocks.LIME_TERRACOTTA,
+			Blocks.PINK_TERRACOTTA, Blocks.GRAY_TERRACOTTA, Blocks.LIGHT_GRAY_TERRACOTTA,
+			Blocks.CYAN_TERRACOTTA, Blocks.PURPLE_TERRACOTTA, Blocks.BLUE_TERRACOTTA, Blocks.BROWN_TERRACOTTA,
+			Blocks.GREEN_TERRACOTTA, Blocks.RED_TERRACOTTA, Blocks.BLACK_TERRACOTTA, Blocks.COAL_BLOCK,
+			Blocks.RED_SANDSTONE, Blocks.RED_NETHER_BRICKS, Blocks.PRISMARINE, Blocks.PRISMARINE_BRICKS,
+			Blocks.PURPUR_BLOCK, Blocks.PURPUR_PILLAR, Blocks.WHITE_CONCRETE, Blocks.ORANGE_CONCRETE,
+			Blocks.MAGENTA_CONCRETE, Blocks.LIGHT_BLUE_CONCRETE, Blocks.YELLOW_CONCRETE, Blocks.LIME_CONCRETE,
+			Blocks.PINK_CONCRETE, Blocks.GRAY_CONCRETE, Blocks.LIGHT_GRAY_CONCRETE, Blocks.CYAN_CONCRETE,
+			Blocks.PURPLE_CONCRETE, Blocks.BLUE_CONCRETE, Blocks.BROWN_CONCRETE, Blocks.GREEN_CONCRETE,
+			Blocks.RED_CONCRETE, Blocks.BLACK_CONCRETE, Blocks.END_STONE, Blocks.END_STONE_BRICKS};
+	public final static Block[] itemsSelectMaterial_BuildingRoofs = new Block[] {
+			Blocks.COBBLESTONE, Blocks.SANDSTONE, Blocks.BRICKS, Blocks.MOSSY_COBBLESTONE, Blocks.CLAY,
+			Blocks.NETHERRACK, Blocks.SMOOTH_STONE, Blocks.STONE_BRICKS, Blocks.NETHER_BRICKS,
+			Blocks.QUARTZ_BLOCK, Blocks.CHISELED_STONE_BRICKS, Blocks.CRACKED_STONE_BRICKS,
+			Blocks.ACACIA_PLANKS, Blocks.BIRCH_PLANKS, Blocks.DARK_OAK_PLANKS, Blocks.JUNGLE_PLANKS,
+			Blocks.OAK_PLANKS, Blocks.SPRUCE_PLANKS, Blocks.WHITE_WOOL, Blocks.ORANGE_WOOL,
+			Blocks.MAGENTA_WOOL, Blocks.LIGHT_BLUE_WOOL, Blocks.YELLOW_WOOL, Blocks.LIME_WOOL,
+			Blocks.PINK_WOOL, Blocks.GRAY_WOOL, Blocks.LIGHT_GRAY_WOOL, Blocks.CYAN_WOOL, Blocks.PURPLE_WOOL,
+			Blocks.BLUE_WOOL, Blocks.BROWN_WOOL, Blocks.GREEN_WOOL, Blocks.RED_WOOL, Blocks.BLACK_WOOL,
+			Blocks.TERRACOTTA, Blocks.WHITE_TERRACOTTA, Blocks.ORANGE_TERRACOTTA, Blocks.MAGENTA_TERRACOTTA,
+			Blocks.LIGHT_BLUE_TERRACOTTA, Blocks.YELLOW_TERRACOTTA, Blocks.LIME_TERRACOTTA,
+			Blocks.PINK_TERRACOTTA, Blocks.GRAY_TERRACOTTA, Blocks.LIGHT_GRAY_TERRACOTTA,
+			Blocks.CYAN_TERRACOTTA, Blocks.PURPLE_TERRACOTTA, Blocks.BLUE_TERRACOTTA, Blocks.BROWN_TERRACOTTA,
+			Blocks.GREEN_TERRACOTTA, Blocks.RED_TERRACOTTA, Blocks.BLACK_TERRACOTTA, Blocks.COAL_BLOCK,
+			Blocks.RED_SANDSTONE, Blocks.RED_NETHER_BRICKS, Blocks.PRISMARINE, Blocks.PRISMARINE_BRICKS,
+			Blocks.PURPUR_BLOCK, Blocks.PURPUR_PILLAR, Blocks.WHITE_CONCRETE, Blocks.ORANGE_CONCRETE,
+			Blocks.MAGENTA_CONCRETE, Blocks.LIGHT_BLUE_CONCRETE, Blocks.YELLOW_CONCRETE, Blocks.LIME_CONCRETE,
+			Blocks.PINK_CONCRETE, Blocks.GRAY_CONCRETE, Blocks.LIGHT_GRAY_CONCRETE, Blocks.CYAN_CONCRETE,
+			Blocks.PURPLE_CONCRETE, Blocks.BLUE_CONCRETE, Blocks.BROWN_CONCRETE, Blocks.GREEN_CONCRETE,
+			Blocks.RED_CONCRETE, Blocks.BLACK_CONCRETE, Blocks.END_STONE, Blocks.END_STONE_BRICKS};
+	public final static Block[] itemsMaterialListFor_Roads = new Block[] {
+
+			// ORDER MATTERS IN THIS CASE
+			Blocks.WHITE_TERRACOTTA, // Pavement
+			Blocks.QUARTZ_BLOCK, // Lines
+			Blocks.STONE_SLAB, // Sidewalks
+			Blocks.GRASS_PATH, // Dirt roads
+			Blocks.GRASS_PATH // Dirt sidewalks
+	};
+
+	public final static Block[] itemsSelectMaterial_UnfinishedBuildings = new Block[] {
+			Blocks.CLAY, Blocks.WHITE_TERRACOTTA, Blocks.GRAY_TERRACOTTA, Blocks.LIGHT_GRAY_TERRACOTTA,
+			Blocks.BLACK_TERRACOTTA, Blocks.WHITE_CONCRETE, Blocks.GRAY_CONCRETE, Blocks.LIGHT_GRAY_CONCRETE,
+			Blocks.BLACK_CONCRETE};
+	
+	public final static Block[] itemsSelectMaterial_QuaryPiles = new Block[] {
+			Blocks.GRAVEL, Blocks.GRAVEL, Blocks.GRAVEL, Blocks.GRAVEL, Blocks.COAL_ORE, Blocks.COAL_ORE,
+			Blocks.COAL_ORE, Blocks.COAL_ORE, Blocks.IRON_ORE, Blocks.IRON_ORE, Blocks.IRON_ORE,
+			Blocks.GOLD_ORE, Blocks.LAPIS_ORE, Blocks.REDSTONE_ORE, Blocks.DIAMOND_ORE, Blocks.EMERALD_ORE,
+			Blocks.WHITE_CONCRETE_POWDER, Blocks.ORANGE_CONCRETE_POWDER, Blocks.MAGENTA_CONCRETE_POWDER,
+			Blocks.LIGHT_BLUE_CONCRETE_POWDER, Blocks.YELLOW_CONCRETE_POWDER, Blocks.LIME_CONCRETE_POWDER,
+			Blocks.PINK_CONCRETE_POWDER, Blocks.GRAY_CONCRETE_POWDER, Blocks.LIGHT_GRAY_CONCRETE_POWDER,
+			Blocks.CYAN_CONCRETE_POWDER, Blocks.PURPLE_CONCRETE_POWDER, Blocks.BLUE_CONCRETE_POWDER,
+			Blocks.BROWN_CONCRETE_POWDER, Blocks.GREEN_CONCRETE_POWDER, Blocks.RED_CONCRETE_POWDER,
+			Blocks.BLACK_CONCRETE_POWDER};
+	
+	public final static Block[] itemsSelectMaterial_OilPlatformFloor = new Block[] {
+			Blocks.WHITE_CONCRETE, Blocks.ORANGE_CONCRETE, Blocks.MAGENTA_CONCRETE, Blocks.LIGHT_BLUE_CONCRETE,
+			Blocks.YELLOW_CONCRETE, Blocks.LIME_CONCRETE, Blocks.PINK_CONCRETE, Blocks.GRAY_CONCRETE,
+			Blocks.LIGHT_GRAY_CONCRETE, Blocks.CYAN_CONCRETE, Blocks.PURPLE_CONCRETE, Blocks.BLUE_CONCRETE,
+			Blocks.BROWN_CONCRETE, Blocks.GREEN_CONCRETE, Blocks.RED_CONCRETE, Blocks.BLACK_CONCRETE,
+			Blocks.STONE};
+	
+	public final static Block[] itemsSelectMaterial_OilPlatformColumn = new Block[] {
+			Blocks.WHITE_CONCRETE, Blocks.ORANGE_CONCRETE, Blocks.MAGENTA_CONCRETE, Blocks.LIGHT_BLUE_CONCRETE,
+			Blocks.YELLOW_CONCRETE, Blocks.LIME_CONCRETE, Blocks.PINK_CONCRETE, Blocks.GRAY_CONCRETE,
+			Blocks.LIGHT_GRAY_CONCRETE, Blocks.CYAN_CONCRETE, Blocks.PURPLE_CONCRETE, Blocks.BLUE_CONCRETE,
+			Blocks.BROWN_CONCRETE, Blocks.GREEN_CONCRETE, Blocks.RED_CONCRETE, Blocks.BLACK_CONCRETE,
+			Blocks.STONE};
+	
+	public final static Block[] itemsSelectMaterial_Castles = new Block[] { 
+			Blocks.COBBLESTONE, Blocks.MOSSY_COBBLESTONE, Blocks.CRACKED_STONE_BRICKS, 
+			Blocks.CHISELED_STONE_BRICKS, Blocks.QUARTZ_PILLAR, Blocks.CHISELED_QUARTZ_BLOCK};
+	
+	public final static Block[] itemsSelectMaterial_BunkerPlatforms = new Block[] {
+			Blocks.CLAY, Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_PILLAR, Blocks.CHISELED_QUARTZ_BLOCK,
+			Blocks.TERRACOTTA, Blocks.WHITE_TERRACOTTA, Blocks.ORANGE_TERRACOTTA, Blocks.MAGENTA_TERRACOTTA,
+			Blocks.LIGHT_BLUE_TERRACOTTA, Blocks.YELLOW_TERRACOTTA, Blocks.LIME_TERRACOTTA,
+			Blocks.PINK_TERRACOTTA, Blocks.GRAY_TERRACOTTA, Blocks.LIGHT_GRAY_TERRACOTTA,
+			Blocks.CYAN_TERRACOTTA, Blocks.PURPLE_TERRACOTTA, Blocks.BLUE_TERRACOTTA, Blocks.BROWN_TERRACOTTA,
+			Blocks.GREEN_TERRACOTTA, Blocks.RED_TERRACOTTA, Blocks.BLACK_TERRACOTTA, Blocks.WHITE_TERRACOTTA,
+			Blocks.WHITE_CONCRETE, Blocks.ORANGE_CONCRETE, Blocks.MAGENTA_CONCRETE, Blocks.LIGHT_BLUE_CONCRETE,
+			Blocks.YELLOW_CONCRETE, Blocks.LIME_CONCRETE, Blocks.PINK_CONCRETE, Blocks.GRAY_CONCRETE,
+			Blocks.LIGHT_GRAY_CONCRETE, Blocks.CYAN_CONCRETE, Blocks.PURPLE_CONCRETE, Blocks.BLUE_CONCRETE,
+			Blocks.BROWN_CONCRETE, Blocks.GREEN_CONCRETE, Blocks.RED_CONCRETE, Blocks.BLACK_CONCRETE};
+	
+	public final static Block[] itemsSelectMaterial_BunkerBuildings = new Block[] {
+			Blocks.CLAY, Blocks.QUARTZ_BLOCK, Blocks.TERRACOTTA, Blocks.WHITE_TERRACOTTA,
+			Blocks.ORANGE_TERRACOTTA, Blocks.MAGENTA_TERRACOTTA, Blocks.LIGHT_BLUE_TERRACOTTA,
+			Blocks.YELLOW_TERRACOTTA, Blocks.LIME_TERRACOTTA, Blocks.PINK_TERRACOTTA, Blocks.GRAY_TERRACOTTA,
+			Blocks.LIGHT_GRAY_TERRACOTTA, Blocks.CYAN_TERRACOTTA, Blocks.PURPLE_TERRACOTTA,
+			Blocks.BLUE_TERRACOTTA, Blocks.BROWN_TERRACOTTA, Blocks.GREEN_TERRACOTTA, Blocks.RED_TERRACOTTA,
+			Blocks.BLACK_TERRACOTTA, Blocks.WHITE_TERRACOTTA, Blocks.WHITE_CONCRETE, Blocks.ORANGE_CONCRETE,
+			Blocks.MAGENTA_CONCRETE, Blocks.LIGHT_BLUE_CONCRETE, Blocks.YELLOW_CONCRETE, Blocks.LIME_CONCRETE,
+			Blocks.PINK_CONCRETE, Blocks.GRAY_CONCRETE, Blocks.LIGHT_GRAY_CONCRETE, Blocks.CYAN_CONCRETE,
+			Blocks.PURPLE_CONCRETE, Blocks.BLUE_CONCRETE, Blocks.BROWN_CONCRETE, Blocks.GREEN_CONCRETE,
+			Blocks.RED_CONCRETE, Blocks.BLACK_CONCRETE};
+
+	public final static Block[] itemsSelectMaterial_BunkerBilge = new Block[] { 
+			Blocks.AIR, Blocks.LAVA, Blocks.WATER, Blocks.ICE, Blocks.PACKED_ICE};
+
+	public final static Block[] itemsSelectMaterial_BunkerTanks = new Block[] {
+			Blocks.SPONGE,
+			Blocks.REDSTONE_BLOCK, Blocks.END_STONE, Blocks.EMERALD_BLOCK, Blocks.LAVA, Blocks.ICE,
+			Blocks.PACKED_ICE, Blocks.SNOW_BLOCK, Blocks.SLIME_BLOCK, Blocks.COAL_BLOCK, Blocks.SAND,
+			Blocks.WATER, Blocks.GLASS, Blocks.WHITE_STAINED_GLASS, Blocks.ORANGE_STAINED_GLASS,
+			Blocks.MAGENTA_STAINED_GLASS, Blocks.LIGHT_BLUE_STAINED_GLASS, Blocks.YELLOW_STAINED_GLASS,
+			Blocks.LIME_STAINED_GLASS, Blocks.PINK_STAINED_GLASS, Blocks.GRAY_STAINED_GLASS,
+			Blocks.LIGHT_GRAY_STAINED_GLASS, Blocks.CYAN_STAINED_GLASS, Blocks.PURPLE_STAINED_GLASS,
+			Blocks.BLUE_STAINED_GLASS, Blocks.BROWN_STAINED_GLASS, Blocks.GREEN_STAINED_GLASS,
+			Blocks.RED_STAINED_GLASS, Blocks.BLACK_STAINED_GLASS, Blocks.TERRACOTTA, Blocks.WHITE_TERRACOTTA,
+			Blocks.ORANGE_TERRACOTTA, Blocks.MAGENTA_TERRACOTTA, Blocks.LIGHT_BLUE_TERRACOTTA,
+			Blocks.YELLOW_TERRACOTTA, Blocks.LIME_TERRACOTTA, Blocks.PINK_TERRACOTTA, Blocks.GRAY_TERRACOTTA,
+			Blocks.LIGHT_GRAY_TERRACOTTA, Blocks.CYAN_TERRACOTTA, Blocks.PURPLE_TERRACOTTA,
+			Blocks.BLUE_TERRACOTTA, Blocks.BROWN_TERRACOTTA, Blocks.GREEN_TERRACOTTA, Blocks.RED_TERRACOTTA,
+			Blocks.BLACK_TERRACOTTA, Blocks.WHITE_CONCRETE_POWDER, Blocks.ORANGE_CONCRETE_POWDER,
+			Blocks.MAGENTA_CONCRETE_POWDER, Blocks.LIGHT_BLUE_CONCRETE_POWDER, Blocks.YELLOW_CONCRETE_POWDER,
+			Blocks.LIME_CONCRETE_POWDER, Blocks.PINK_CONCRETE_POWDER, Blocks.GRAY_CONCRETE_POWDER,
+			Blocks.LIGHT_GRAY_CONCRETE_POWDER, Blocks.CYAN_CONCRETE_POWDER, Blocks.PURPLE_CONCRETE_POWDER,
+			Blocks.BLUE_CONCRETE_POWDER, Blocks.BROWN_CONCRETE_POWDER, Blocks.GREEN_CONCRETE_POWDER,
+			Blocks.RED_CONCRETE_POWDER, Blocks.BLACK_CONCRETE_POWDER};
+
+	public final static Block[] itemsSelectMaterial_FactoryInsides = new Block[] {
+			Blocks.STONE, Blocks.SMOOTH_STONE, Blocks.QUARTZ_BLOCK, Blocks.CLAY, Blocks.WHITE_CONCRETE,
+			Blocks.ORANGE_CONCRETE, Blocks.MAGENTA_CONCRETE, Blocks.LIGHT_BLUE_CONCRETE, Blocks.YELLOW_CONCRETE,
+			Blocks.LIME_CONCRETE, Blocks.PINK_CONCRETE, Blocks.GRAY_CONCRETE, Blocks.LIGHT_GRAY_CONCRETE,
+			Blocks.CYAN_CONCRETE, Blocks.PURPLE_CONCRETE, Blocks.BLUE_CONCRETE, Blocks.BROWN_CONCRETE,
+			Blocks.GREEN_CONCRETE, Blocks.RED_CONCRETE, Blocks.BLACK_CONCRETE};
+
+	public final static Block[] itemsSelectMaterial_FactoryTanks = new Block[] {
+			Blocks.LAVA,
+			Blocks.ICE, Blocks.PACKED_ICE, Blocks.SNOW_BLOCK, Blocks.SLIME_BLOCK, Blocks.COAL_BLOCK,
+			Blocks.SAND, Blocks.WATER, Blocks.GLASS, Blocks.WHITE_STAINED_GLASS, Blocks.ORANGE_STAINED_GLASS,
+			Blocks.MAGENTA_STAINED_GLASS, Blocks.LIGHT_BLUE_STAINED_GLASS, Blocks.YELLOW_STAINED_GLASS,
+			Blocks.LIME_STAINED_GLASS, Blocks.PINK_STAINED_GLASS, Blocks.GRAY_STAINED_GLASS,
+			Blocks.LIGHT_GRAY_STAINED_GLASS, Blocks.CYAN_STAINED_GLASS, Blocks.PURPLE_STAINED_GLASS,
+			Blocks.BLUE_STAINED_GLASS, Blocks.BROWN_STAINED_GLASS, Blocks.GREEN_STAINED_GLASS,
+			Blocks.RED_STAINED_GLASS, Blocks.BLACK_STAINED_GLASS, Blocks.TERRACOTTA, Blocks.WHITE_TERRACOTTA,
+			Blocks.ORANGE_TERRACOTTA, Blocks.MAGENTA_TERRACOTTA, Blocks.LIGHT_BLUE_TERRACOTTA,
+			Blocks.YELLOW_TERRACOTTA, Blocks.LIME_TERRACOTTA, Blocks.PINK_TERRACOTTA, Blocks.GRAY_TERRACOTTA,
+			Blocks.LIGHT_GRAY_TERRACOTTA, Blocks.CYAN_TERRACOTTA, Blocks.PURPLE_TERRACOTTA,
+			Blocks.BLUE_TERRACOTTA, Blocks.BROWN_TERRACOTTA, Blocks.GREEN_TERRACOTTA, Blocks.RED_TERRACOTTA,
+			Blocks.BLACK_TERRACOTTA, Blocks.WHITE_CONCRETE_POWDER, Blocks.ORANGE_CONCRETE_POWDER,
+			Blocks.MAGENTA_CONCRETE_POWDER, Blocks.LIGHT_BLUE_CONCRETE_POWDER, Blocks.YELLOW_CONCRETE_POWDER,
+			Blocks.LIME_CONCRETE_POWDER, Blocks.PINK_CONCRETE_POWDER, Blocks.GRAY_CONCRETE_POWDER,
+			Blocks.LIGHT_GRAY_CONCRETE_POWDER, Blocks.CYAN_CONCRETE_POWDER, Blocks.PURPLE_CONCRETE_POWDER,
+			Blocks.BLUE_CONCRETE_POWDER, Blocks.BROWN_CONCRETE_POWDER, Blocks.GREEN_CONCRETE_POWDER,
+			Blocks.RED_CONCRETE_POWDER, Blocks.BLACK_CONCRETE_POWDER};
+
+	public final static Block[] itemsSelectMaterial_GovernmentWalls = new Block[] {
+			Blocks.WHITE_TERRACOTTA, Blocks.LIGHT_GRAY_TERRACOTTA, Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_PILLAR,
+			Blocks.CHISELED_QUARTZ_BLOCK, Blocks.END_STONE, Blocks.END_STONE_BRICKS, Blocks.WHITE_WOOL};
+
+	public final static Block[] itemsSelectMaterial_GovernmentFoundations = new Block[] {
+			Blocks.WHITE_TERRACOTTA, Blocks.LIGHT_GRAY_TERRACOTTA, Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_PILLAR,
+			Blocks.CHISELED_QUARTZ_BLOCK, Blocks.END_STONE, Blocks.END_STONE_BRICKS, Blocks.WHITE_WOOL};
+
+	public final static Block[] itemsSelectMaterial_GovernmentCeilings = new Block[] {
+			Blocks.WHITE_TERRACOTTA, Blocks.LIGHT_GRAY_TERRACOTTA, Blocks.QUARTZ_BLOCK, Blocks.QUARTZ_PILLAR,
+			Blocks.CHISELED_QUARTZ_BLOCK, Blocks.END_STONE, Blocks.END_STONE_BRICKS, Blocks.WHITE_WOOL};
+
+	public final static Block[] itemsMaterialListFor_TheEndOres = new Block[] {
+
+			// ORDER MATTERS IN THIS CASE
+			Blocks.WATER, // liquid ore
+			Blocks.LAVA, // alt liquid ore
+			Blocks.GRAVEL, // gravel ore
+			Blocks.QUARTZ_BLOCK, // most frequent ore
+			Blocks.GLOWSTONE, //
+			Blocks.PURPUR_BLOCK, //
+			Blocks.GOLD_ORE, //
+			Blocks.LAPIS_ORE, //
+			Blocks.DIAMOND_ORE, //
+			Blocks.OBSIDIAN}; // least frequent ore
+
+	public final static Block[] itemsMaterialListFor_NetherOres = new Block[] {
+
+			// ORDER MATTERS IN THIS CASE
+			Blocks.LAVA, // liquid ore
+			Blocks.LAVA, // alt liquid ore
+			Blocks.MAGMA_BLOCK, // gravel ore
+			Blocks.SOUL_SAND, // most frequent ore
+			Blocks.GLOWSTONE, //
+			Blocks.GLOWSTONE, //
+			Blocks.NETHER_QUARTZ_ORE, //
+			Blocks.MAGMA_BLOCK, //
+			Blocks.SOUL_SAND, //
+			Blocks.OBSIDIAN}; // least frequent ore
+
+	public final static Block[] itemsMaterialListFor_NormalOres = new Block[] {
+
+			// ORDER MATTERS IN THIS CASE
+			Blocks.WATER, // liquid ore
+			Blocks.LAVA, // alt liquid ore
+			Blocks.GRAVEL, // gravel ore
+			Blocks.COAL_ORE, // most frequent ore
+			Blocks.IRON_ORE, //
+			Blocks.GOLD_ORE, //
+			Blocks.LAPIS_ORE, //
+			Blocks.REDSTONE_ORE, // be
+			Blocks.DIAMOND_ORE, //
+			Blocks.EMERALD_ORE}; // least frequent ore
+
+	public final static Block[] itemsSelectMaterial_ShedWalls = new Block[] {
+			Blocks.SANDSTONE,
+			Blocks.RED_SANDSTONE, Blocks.SPRUCE_PLANKS, Blocks.COBBLESTONE, Blocks.BRICKS,
+			Blocks.SMOOTH_STONE, Blocks.ACACIA_PLANKS, Blocks.BIRCH_PLANKS, Blocks.DARK_OAK_PLANKS,
+			Blocks.JUNGLE_PLANKS, Blocks.OAK_PLANKS, Blocks.SPRUCE_PLANKS, Blocks.STONE};
+	
+	public final static Block[] itemsSelectMaterial_ShedRoofs = new Block[] {
+			Blocks.STONE_SLAB, Blocks.BIRCH_SLAB};
+	
+	public final static Block[] itemsSelectMaterial_ShackWalls = new Block[] {
+			Blocks.ACACIA_PLANKS, Blocks.BIRCH_PLANKS, Blocks.DARK_OAK_PLANKS, Blocks.JUNGLE_PLANKS,
+			Blocks.OAK_PLANKS, Blocks.SPRUCE_PLANKS, Blocks.MOSSY_COBBLESTONE, Blocks.RED_SANDSTONE,
+			Blocks.STONE_BRICKS, Blocks.NETHER_BRICKS, Blocks.BRICKS, Blocks.STONE};
+	
+	public final static Block[] itemsSelectMaterial_ShackRoofs = new Block[] {
+			Blocks.ACACIA_PLANKS, Blocks.BIRCH_PLANKS, Blocks.DARK_OAK_PLANKS, Blocks.JUNGLE_PLANKS,
+			Blocks.OAK_PLANKS, Blocks.SPRUCE_PLANKS, Blocks.STONE};
+
+	public final static Block[] itemsSelectMaterial_HouseWalls = new Block[] {
+			Blocks.COBBLESTONE,
+			Blocks.MOSSY_COBBLESTONE, Blocks.STONE, Blocks.SMOOTH_STONE, Blocks.SANDSTONE,
+			Blocks.RED_SANDSTONE, Blocks.STONE_BRICKS, Blocks.NETHER_BRICKS, Blocks.BRICKS, Blocks.CLAY,
+			Blocks.TERRACOTTA, Blocks.WHITE_TERRACOTTA, Blocks.ORANGE_TERRACOTTA, Blocks.MAGENTA_TERRACOTTA,
+			Blocks.LIGHT_BLUE_TERRACOTTA, Blocks.YELLOW_TERRACOTTA, Blocks.LIME_TERRACOTTA,
+			Blocks.PINK_TERRACOTTA, Blocks.GRAY_TERRACOTTA, Blocks.LIGHT_GRAY_TERRACOTTA,
+			Blocks.CYAN_TERRACOTTA, Blocks.PURPLE_TERRACOTTA, Blocks.BLUE_TERRACOTTA, Blocks.BROWN_TERRACOTTA,
+			Blocks.GREEN_TERRACOTTA, Blocks.RED_TERRACOTTA, Blocks.BLACK_TERRACOTTA, Blocks.PRISMARINE,
+			Blocks.PURPUR_BLOCK, Blocks.ACACIA_PLANKS, Blocks.BIRCH_PLANKS, Blocks.DARK_OAK_PLANKS,
+			Blocks.JUNGLE_PLANKS, Blocks.OAK_PLANKS, Blocks.SPRUCE_PLANKS, Blocks.WHITE_CONCRETE,
+			Blocks.ORANGE_CONCRETE, Blocks.MAGENTA_CONCRETE, Blocks.LIGHT_BLUE_CONCRETE, Blocks.YELLOW_CONCRETE,
+			Blocks.LIME_CONCRETE, Blocks.PINK_CONCRETE, Blocks.GRAY_CONCRETE, Blocks.LIGHT_GRAY_CONCRETE,
+			Blocks.CYAN_CONCRETE, Blocks.PURPLE_CONCRETE, Blocks.BLUE_CONCRETE, Blocks.BROWN_CONCRETE,
+			Blocks.GREEN_CONCRETE, Blocks.RED_CONCRETE, Blocks.BLACK_CONCRETE, Blocks.END_STONE,
+			Blocks.END_STONE_BRICKS};
+	
+	public final static Block[] itemsSelectMaterial_HouseFloors = new Block[] {
+			Blocks.COBBLESTONE, Blocks.COBBLESTONE, Blocks.COBBLESTONE, Blocks.STONE, Blocks.STONE,
+			Blocks.STONE, Blocks.ACACIA_PLANKS, Blocks.BIRCH_PLANKS, Blocks.DARK_OAK_PLANKS,
+			Blocks.JUNGLE_PLANKS, Blocks.OAK_PLANKS, Blocks.SPRUCE_PLANKS, Blocks.WHITE_WOOL,
+			Blocks.ORANGE_WOOL, Blocks.MAGENTA_WOOL, Blocks.LIGHT_BLUE_WOOL, Blocks.YELLOW_WOOL,
+			Blocks.LIME_WOOL, Blocks.PINK_WOOL, Blocks.GRAY_WOOL, Blocks.LIGHT_GRAY_WOOL, Blocks.CYAN_WOOL,
+			Blocks.PURPLE_WOOL, Blocks.BLUE_WOOL, Blocks.BROWN_WOOL, Blocks.GREEN_WOOL, Blocks.RED_WOOL,
+			Blocks.BLACK_WOOL, Blocks.TERRACOTTA, Blocks.WHITE_TERRACOTTA, Blocks.ORANGE_TERRACOTTA,
+			Blocks.MAGENTA_TERRACOTTA, Blocks.LIGHT_BLUE_TERRACOTTA, Blocks.YELLOW_TERRACOTTA,
+			Blocks.LIME_TERRACOTTA, Blocks.PINK_TERRACOTTA, Blocks.GRAY_TERRACOTTA,
+			Blocks.LIGHT_GRAY_TERRACOTTA, Blocks.CYAN_TERRACOTTA, Blocks.PURPLE_TERRACOTTA,
+			Blocks.BLUE_TERRACOTTA, Blocks.BROWN_TERRACOTTA, Blocks.GREEN_TERRACOTTA, Blocks.RED_TERRACOTTA,
+			Blocks.BLACK_TERRACOTTA, Blocks.BLACK_GLAZED_TERRACOTTA, Blocks.BLUE_GLAZED_TERRACOTTA,
+			Blocks.BROWN_GLAZED_TERRACOTTA, Blocks.CYAN_GLAZED_TERRACOTTA, Blocks.GRAY_GLAZED_TERRACOTTA,
+			Blocks.GREEN_GLAZED_TERRACOTTA, Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA, Blocks.LIME_GLAZED_TERRACOTTA,
+			Blocks.MAGENTA_GLAZED_TERRACOTTA, Blocks.ORANGE_GLAZED_TERRACOTTA, Blocks.PINK_GLAZED_TERRACOTTA,
+			Blocks.PURPLE_GLAZED_TERRACOTTA, Blocks.RED_GLAZED_TERRACOTTA, Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA,
+			Blocks.WHITE_GLAZED_TERRACOTTA, Blocks.YELLOW_GLAZED_TERRACOTTA};
+	
+	public final static Block[] itemsSelectMaterial_HouseCeilings = new Block[] {
+			Blocks.COBBLESTONE, Blocks.SMOOTH_STONE, Blocks.SANDSTONE, Blocks.RED_SANDSTONE,
+			Blocks.ACACIA_PLANKS, Blocks.BIRCH_PLANKS, Blocks.DARK_OAK_PLANKS, Blocks.JUNGLE_PLANKS,
+			Blocks.OAK_PLANKS, Blocks.SPRUCE_PLANKS, Blocks.STONE};
+
+	public final static Block[] itemsSelectMaterial_HouseRoofs = new Block[] {
+			Blocks.COBBLESTONE,
+			Blocks.MOSSY_COBBLESTONE, Blocks.SMOOTH_STONE, Blocks.SANDSTONE, Blocks.RED_SANDSTONE,
+			Blocks.ACACIA_PLANKS, Blocks.BIRCH_PLANKS, Blocks.DARK_OAK_PLANKS, Blocks.JUNGLE_PLANKS,
+			Blocks.OAK_PLANKS, Blocks.SPRUCE_PLANKS, Blocks.STONE};
+	
+	public final static Block[] itemsSelectMaterial_WaterTowers = new Block[] {
+			Blocks.CLAY,
+			Blocks.WHITE_TERRACOTTA, Blocks.ORANGE_TERRACOTTA, Blocks.MAGENTA_TERRACOTTA,
+			Blocks.LIGHT_BLUE_TERRACOTTA, Blocks.YELLOW_TERRACOTTA, Blocks.LIME_TERRACOTTA,
+			Blocks.PINK_TERRACOTTA, Blocks.GRAY_TERRACOTTA, Blocks.LIGHT_GRAY_TERRACOTTA,
+			Blocks.CYAN_TERRACOTTA, Blocks.PURPLE_TERRACOTTA, Blocks.BLUE_TERRACOTTA, Blocks.BROWN_TERRACOTTA,
+			Blocks.GREEN_TERRACOTTA, Blocks.RED_TERRACOTTA, Blocks.BLACK_TERRACOTTA, Blocks.WHITE_CONCRETE,
+			Blocks.ORANGE_CONCRETE, Blocks.MAGENTA_CONCRETE, Blocks.LIGHT_BLUE_CONCRETE, Blocks.YELLOW_CONCRETE,
+			Blocks.LIME_CONCRETE, Blocks.PINK_CONCRETE, Blocks.GRAY_CONCRETE, Blocks.LIGHT_GRAY_CONCRETE,
+			Blocks.CYAN_CONCRETE, Blocks.PURPLE_CONCRETE, Blocks.BLUE_CONCRETE, Blocks.BROWN_CONCRETE,
+			Blocks.GREEN_CONCRETE, Blocks.RED_CONCRETE, Blocks.BLACK_CONCRETE};
+
+	public static Block getRandomBlock(Block[] blocks, Odds odds) {
+		return getRandomBlock(blocks, odds, Blocks.AIR);
+	}
+	
+	public static Block getRandomBlock(Block[] blocks, Odds odds, Block defaultBlock) {
+		if(blocks == null || blocks.length == 0) return defaultBlock;
+		return blocks[odds.getRandomInt(blocks.length)];
+	}
+	
+	public static Block getNthBlock(Block[] blocks, int n, Block defaultBlock) {
+		if(n < 0 || n >= blocks.length) return defaultBlock;
+		return blocks[n];
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "half=lower": { "model": "vacation_diary:block/golden_shower_bottom" },
+    "half=upper":    { "model": "vacation_diary:block/golden_shower_top" }
+  }
+}

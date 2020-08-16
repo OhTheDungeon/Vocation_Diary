@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bowl"
+        },
+        {
+            "item": "minecraft:pumpkin_seeds"
+        },
+        {
+            "item": "minecraft:wheat_seeds"
+        },
+        {
+            "item": "minecraft:melon_seeds"
+        },
+        {
+            "item": "minecraft:beetroot_seeds"
+        }
+    ],
+    "result": {
+        "item": "vacation_diary:trailmix",
+        "count": 1
+    }
+}

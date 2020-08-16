@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:egg"
+    },
+    "result": "vacation_diary:fried_egg",
+    "experience": 0.1,
+    "cookingtime": 200
+}

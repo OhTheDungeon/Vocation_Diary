@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#L"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:glass_bottle"
+        },
+        "L": {
+            "item": "vacation_diary:tea_leaves"
+        }
+    },
+    "result": {
+        "item": "vacation_diary:tea",
+        "count": 1
+    }
+}
