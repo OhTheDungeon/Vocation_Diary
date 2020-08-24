@@ -10,9 +10,9 @@ import net.minecraft.world.biome.provider.OverworldBiomeProviderSettings;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.dimension.OverworldDimension;
 import net.minecraft.world.gen.ChunkGenerator;
-import net.minecraft.world.storage.DerivedWorldInfo;
-import net.minecraft.world.storage.WorldInfo;
-import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
+//import net.minecraft.world.storage.DerivedWorldInfo;
+//import net.minecraft.world.storage.WorldInfo;
+//import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
 
 
 public class VocationDimension extends OverworldDimension {
@@ -27,16 +27,17 @@ public class VocationDimension extends OverworldDimension {
         return new VocationCityWorldGenerator(world, biomeProvider, settings);
     }
     
-    @Override
-    public void setWorldTime(long time) {
-        if (time == 24000L && this.world.getWorldInfo() instanceof DerivedWorldInfo) {
-        	DerivedWorldInfo world = ((DerivedWorldInfo) this.world.getWorldInfo());
-        	WorldInfo worldinfo = (WorldInfo) ObfuscationReflectionHelper
-        			.getPrivateValue(DerivedWorldInfo.class, world, "delegate");
-        	worldinfo.setDayTime(time);
-        }
-        
-        super.setWorldTime(time);
-    }
+    //怕出事 溜了
+//    @Override
+//    public void setWorldTime(long time) {
+//        if (time == 24000L && this.world.getWorldInfo() instanceof DerivedWorldInfo) {
+//        	DerivedWorldInfo world = ((DerivedWorldInfo) this.world.getWorldInfo());
+//        	WorldInfo worldinfo = (WorldInfo) ObfuscationReflectionHelper
+//        			.getPrivateValue(DerivedWorldInfo.class, world, "field_76115_a");
+//        	worldinfo.setDayTime(time);
+//        }
+//        
+//        super.setWorldTime(time);
+//    }
 
 }
